@@ -4,10 +4,6 @@ import { toast } from 'react-toastify';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getAuthToken, getId } from 'src/services/BackendService';
 
-interface Course {
-  title: string;
-  description: string;
-}
 
 export function AddCourse() {
   const { adminId } = useParams();
@@ -40,8 +36,9 @@ export function AddCourse() {
       })
       .then((data) => {
         if (data !== null) {
-          navigate('/admin/courses');
           toast.success('Course created successfully.');
+          // Yönlendirme işlemi
+          navigate(`/admin/add-section/${data.id}`);
         } else {
           toast.error('Error while creating course. Please try again.');
         }
@@ -49,6 +46,7 @@ export function AddCourse() {
       .catch((error) => {
         toast.error('Error while creating course. Please try again.');
       });
+      
   };
 
   return (
@@ -79,6 +77,8 @@ export function AddCourse() {
           name="title"
           onChange={(event) => setTitle(event.target.value)}
         />
+
+        
 
         <TextField
           value={description}

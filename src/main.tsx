@@ -9,6 +9,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import AdminCourses from './courses/AdminCourses';
 import AddCourse from './courses/AddCourse';
+import AddSection from './courses/sections/AddSection';
 import UpdateCourse from "./courses/UpdateCourse";
 
 const root = ReactDOM.createRoot(
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
   {
     path: '/admin/add-course/:adminId',
     element: <AddCourse />,
+  },
+  {
+    path: '/admin/add-section/:courseId',
+    element: <AddSection />,
   },
   {
     path: '/admin/update-course/:courseId',
