@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { TextField, Button } from '@mui/material';
+import { TextField, Button, MenuItem, Select } from '@mui/material';
 import { toast } from 'react-toastify';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getAuthToken, getId } from 'src/services/BackendService';
@@ -8,6 +8,7 @@ export function UpdateCourse() {
   const { courseId } = useParams();
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
+  const [category, setCategory] = useState('');
   const [sections, setSections] = useState<number[]>([]);
   const navigate = useNavigate();
 
@@ -28,6 +29,7 @@ export function UpdateCourse() {
         if (data !== undefined) {
           setTitle(data.title);
           setDescription(data.description);
+          setCategory(data.category);
           setSections(data.sections);
 
           console.log(data.title);
@@ -48,6 +50,7 @@ export function UpdateCourse() {
       body: JSON.stringify({
         title: title,
         description: description,
+        category: category,
         authors: [parseInt(getId()!)],
         sections: sections,
       }),
@@ -108,6 +111,18 @@ export function UpdateCourse() {
           name="description"
           onChange={(event) => setDescription(event.target.value)}
         />
+
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          value={category}
+          label="Category"
+          onChange={(event) => setCategory(event.target.value)}
+        >
+          <MenuItem value={'Software'}>Software</MenuItem>
+          <MenuItem value={'Language'}>Language</MenuItem>
+          <MenuItem value={'Instrument'}>Instrument</MenuItem>
+        </Select>
 
         <Button variant="outlined" type="submit">
           Update

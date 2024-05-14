@@ -54,20 +54,25 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [],
+    "nonProjectFiles": [
+      {
+        "file": "src/courses/UserCourses.tsx",
+        "hash": "5190706013212986284"
+      }
+    ],
     "projectFileMap": {
       "frontend": [
         {
           "file": ".babelrc",
-          "hash": "5147975077747583272"
+          "hash": "13020124393823981135"
         },
         {
           "file": ".eslintignore",
-          "hash": "13404745306227114823"
+          "hash": "7663861978715868291"
         },
         {
           "file": ".eslintrc.json",
-          "hash": "6728602822306043933"
+          "hash": "11396501063103416282"
         },
         {
           "file": ".gitignore",
@@ -75,38 +80,38 @@
         },
         {
           "file": ".prettierignore",
-          "hash": "2687824826588932174"
+          "hash": "16448050467312557263"
         },
         {
           "file": ".prettierrc",
-          "hash": "6820402234827505055"
+          "hash": "16267754514737964994"
         },
         {
           "file": "README.md",
-          "hash": "11911791386271396844"
+          "hash": "3336278235879741445"
         },
         {
           "file": "jest.config.ts",
-          "hash": "16216188153888383924"
+          "hash": "15771852091641093904"
         },
         {
           "file": "jest.preset.js",
-          "hash": "7473220183190921152",
+          "hash": "9430166341120122740",
           "deps": [
             "npm:@nx/jest"
           ]
         },
         {
           "file": "nx.json",
-          "hash": "11033607380523682743"
+          "hash": "15391835385008775552"
         },
         {
           "file": "package-lock.json",
-          "hash": "4706412950310732841"
+          "hash": "18350072494074568806"
         },
         {
           "file": "package.json",
-          "hash": "550977213525143019",
+          "hash": "7956760736476289713",
           "deps": [
             "npm:@emotion/react",
             "npm:@emotion/styled",
@@ -160,11 +165,11 @@
         },
         {
           "file": "project.json",
-          "hash": "2830347044931079546"
+          "hash": "8437994605339081234"
         },
         {
           "file": "src/app/Layout.tsx",
-          "hash": "11488050071662550154",
+          "hash": "16632103139261252797",
           "deps": [
             "npm:react",
             "npm:jwt-decode",
@@ -177,7 +182,7 @@
         },
         {
           "file": "src/auth/Login.tsx",
-          "hash": "8594959029107004503",
+          "hash": "5551836077991132217",
           "deps": [
             "npm:react",
             "npm:jwt-decode",
@@ -197,7 +202,7 @@
         },
         {
           "file": "src/courses/AddCourse.tsx",
-          "hash": "12797473791483611417",
+          "hash": "6208432289694635286",
           "deps": [
             "npm:react",
             "npm:@mui/material",
@@ -207,7 +212,7 @@
         },
         {
           "file": "src/courses/AdminCourses.tsx",
-          "hash": "12973497794019431627",
+          "hash": "10405884018320052160",
           "deps": [
             "npm:@mui/material",
             "npm:react",
@@ -216,12 +221,21 @@
         },
         {
           "file": "src/courses/UpdateCourse.tsx",
-          "hash": "62046545293575402",
+          "hash": "6566049369018092150",
           "deps": [
             "npm:react",
             "npm:@mui/material",
             "npm:react-toastify",
             "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "src/courses/UserCourses.tsx",
+          "hash": "1091150504205788033",
+          "deps": [
+            "npm:@mui/material",
+            "npm:react",
+            "npm:react-toastify"
           ]
         },
         {
@@ -236,7 +250,7 @@
         },
         {
           "file": "src/entities/CustomJwtPayload.tsx",
-          "hash": "3453496670553104911",
+          "hash": "1827300350737037963",
           "deps": [
             "npm:jwt-decode"
           ]
@@ -247,11 +261,11 @@
         },
         {
           "file": "src/index.html",
-          "hash": "7466261846803935068"
+          "hash": "7131916278104389132"
         },
         {
           "file": "src/main.tsx",
-          "hash": "220272310560711956",
+          "hash": "10622686077262020471",
           "deps": [
             "npm:react",
             "npm:react-dom",
@@ -261,45 +275,45 @@
         },
         {
           "file": "src/messages/Messages.tsx",
-          "hash": "2407312966607423501",
+          "hash": "18247750384562061115",
           "deps": [
             "npm:react"
           ]
         },
         {
           "file": "src/messages/ProtectedMessages.tsx",
-          "hash": "11966919602419514437",
+          "hash": "18169478856678241245",
           "deps": [
             "npm:react"
           ]
         },
         {
           "file": "src/services/BackendService.tsx",
-          "hash": "11499928542402617162"
+          "hash": "10208146706488561246"
         },
         {
           "file": "src/styles.css",
-          "hash": "11546918905851129516"
+          "hash": "6720534195195035097"
         },
         {
           "file": "tailwind.config.js",
-          "hash": "13134680164564000423"
+          "hash": "15716828826248580641"
         },
         {
           "file": "tsconfig.app.json",
-          "hash": "14255760839108360242"
+          "hash": "8638363864100345095"
         },
         {
           "file": "tsconfig.json",
-          "hash": "16097149985016176764"
+          "hash": "10776750329763242930"
         },
         {
           "file": "tsconfig.spec.json",
-          "hash": "18025408228059976250"
+          "hash": "10598618129870452834"
         },
         {
           "file": "webpack.config.js",
-          "hash": "13895059476512073174",
+          "hash": "4178004247352356970",
           "deps": [
             "npm:@nx/webpack",
             "npm:@nx/react"

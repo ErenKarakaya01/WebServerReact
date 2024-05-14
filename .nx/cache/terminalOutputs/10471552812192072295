@@ -1,0 +1,457 @@
+<i> [1m[32m[webpack-dev-server] Project is running at:[39m[22m
+<i> [1m[32m[webpack-dev-server] Loopback: [36mhttp://localhost:4200/[39m, [36mhttp://[::1]:4200/[39m[39m[22m
+<i> [1m[32m[webpack-dev-server] 404s will fallback to '[36m/index.html[39m'[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mWeb Development Server is listening at http://localhost:4200/[22m
+
+<i> [1m[32m[webpack-dev-middleware] wait until bundle finished: /[39m[22m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.78 MiB (3.48 MiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mvendor.css[39m[22m 16.6 KiB [1m[32mvendor.js[39m[22m 2.65 MiB [1m[32mmain.css[39m[22m 234 bytes [1m[32mmain.js[39m[22m 65.5 KiB 5 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 3 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bcf063bbf7fd613c)
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.bcf063bbf7fd613c.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.bcf063bbf7fd613c.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.bcf063bbf7fd613c.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ea34e42b1f0289dc)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.ea34e42b1f0289dc.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.ea34e42b1f0289dc.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.ea34e42b1f0289dc.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (79767a2b1d6a3e0a)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.79767a2b1d6a3e0a.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.79767a2b1d6a3e0a.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.79767a2b1d6a3e0a.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c481cbc216b83e60)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.c481cbc216b83e60.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.c481cbc216b83e60.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.c481cbc216b83e60.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d50b9594475afd9)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.9d50b9594475afd9.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.9d50b9594475afd9.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.9d50b9594475afd9.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b35b2368114b0c5e)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.b35b2368114b0c5e.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b35b2368114b0c5e.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b35b2368114b0c5e.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0cc54753517d9ea4)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.0cc54753517d9ea4.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0cc54753517d9ea4.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0cc54753517d9ea4.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4ca555b3b4b58a10)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.4ca555b3b4b58a10.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.4ca555b3b4b58a10.hot-update.js[39m[22m (main) 44.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.4ca555b3b4b58a10.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2a0cb0014bf13716)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.2a0cb0014bf13716.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.2a0cb0014bf13716.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.2a0cb0014bf13716.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cc370a3d1b022127)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m45:8[22m[39m
+[90mTS2552: [39mCannot find name 'Select'. Did you mean 'onselect'?
+  [0m [90m 43 |[39m   [36mreturn[39m (
+   [90m 44 |[39m     [33m<[39m[33mLayout[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 45 |[39m       [33m<[39m[33mSelect[39m
+   [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 46 |[39m           labelId[33m=[39m[32m"demo-simple-select-label"[39m
+   [90m 47 |[39m           id[33m=[39m[32m"demo-simple-select"[39m
+   [90m 48 |[39m           value[33m=[39m{category}[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m48:18[22m[39m
+[90mTS2304: [39mCannot find name 'category'.
+  [0m [90m 46 |[39m           labelId[33m=[39m[32m"demo-simple-select-label"[39m
+   [90m 47 |[39m           id[33m=[39m[32m"demo-simple-select"[39m
+  [31m[1m>[22m[39m[90m 48 |[39m           value[33m=[39m{category}
+   [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 49 |[39m           label[33m=[39m[32m"Category"[39m
+   [90m 50 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m 51 |[39m         [33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m50:22[22m[39m
+[90mTS7006: [39mParameter 'event' implicitly has an 'any' type.
+  [0m [90m 48 |[39m           value[33m=[39m{category}
+   [90m 49 |[39m           label[33m=[39m[32m"Category"[39m
+  [31m[1m>[22m[39m[90m 50 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 51 |[39m         [33m>[39m
+   [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m50:32[22m[39m
+[90mTS2304: [39mCannot find name 'setCategory'.
+  [0m [90m 48 |[39m           value[33m=[39m{category}
+   [90m 49 |[39m           label[33m=[39m[32m"Category"[39m
+  [31m[1m>[22m[39m[90m 50 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 51 |[39m         [33m>[39m
+   [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m52:12[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 50 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m 51 |[39m         [33m>[39m
+  [31m[1m>[22m[39m[90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m52:50[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 50 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m 51 |[39m         [33m>[39m
+  [31m[1m>[22m[39m[90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m53:12[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 51 |[39m         [33m>[39m
+   [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+   [90m 56 |[39m         [0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m53:50[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 51 |[39m         [33m>[39m
+   [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+   [90m 56 |[39m         [0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m54:12[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+   [90m 56 |[39m         
+   [90m 57 |[39m       {courses[33m.[39mmap((course) [33m=>[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m54:54[22m[39m
+[90mTS2304: [39mCannot find name 'MenuItem'.
+  [0m [90m 52 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+   [90m 56 |[39m         
+   [90m 57 |[39m       {courses[33m.[39mmap((course) [33m=>[39m ([0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m55:11[22m[39m
+[90mTS2552: [39mCannot find name 'Select'. Did you mean 'onselect'?
+  [0m [90m 53 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Instrument"[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+  [31m[1m>[22m[39m[90m 55 |[39m         [33m<[39m[33m/[39m[33mSelect[39m[33m>[39m
+   [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 56 |[39m         
+   [90m 57 |[39m       {courses[33m.[39mmap((course) [33m=>[39m (
+   [90m 58 |[39m         [33m<[39m[33mAccordion[39m[0m
+
+Found [31m[1m11 errors[22m[39m in 1372 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.cc370a3d1b022127.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.cc370a3d1b022127.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.cc370a3d1b022127.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (012c09dcfa805f2d)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m50:18[22m[39m
+[90mTS2304: [39mCannot find name 'category'.
+  [0m [90m 48 |[39m           labelId[33m=[39m[32m"demo-simple-select-label"[39m
+   [90m 49 |[39m           id[33m=[39m[32m"demo-simple-select"[39m
+  [31m[1m>[22m[39m[90m 50 |[39m           value[33m=[39m{category}
+   [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 51 |[39m           label[33m=[39m[32m"Category"[39m
+   [90m 52 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m 53 |[39m         [33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m52:32[22m[39m
+[90mTS2304: [39mCannot find name 'setCategory'.
+  [0m [90m 50 |[39m           value[33m=[39m{category}
+   [90m 51 |[39m           label[33m=[39m[32m"Category"[39m
+  [31m[1m>[22m[39m[90m 52 |[39m           onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m         [33m>[39m
+   [90m 54 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Software"[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m           [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m"Language"[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m[0m
+
+Found [31m[1m2 errors[22m[39m in 1769 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.012c09dcfa805f2d.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.012c09dcfa805f2d.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.012c09dcfa805f2d.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7bd46c81e4cf5dcc)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m50:16[22m[39m
+[90mTS2304: [39mCannot find name 'category'.
+  [0m [90m 48 |[39m         labelId[33m=[39m[32m"demo-simple-select-label"[39m
+   [90m 49 |[39m         id[33m=[39m[32m"demo-simple-select"[39m
+  [31m[1m>[22m[39m[90m 50 |[39m         value[33m=[39m{category}
+   [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 51 |[39m         label[33m=[39m[32m"Category"[39m
+   [90m 52 |[39m         onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m 53 |[39m       [33m>[39m[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m52:30[22m[39m
+[90mTS2304: [39mCannot find name 'setCategory'.
+  [0m [90m 50 |[39m         value[33m=[39m{category}
+   [90m 51 |[39m         label[33m=[39m[32m"Category"[39m
+  [31m[1m>[22m[39m[90m 52 |[39m         onChange[33m=[39m{(event) [33m=>[39m setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+   [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 53 |[39m       [33m>[39m
+   [90m 54 |[39m         [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m'Software'[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+   [90m 55 |[39m         [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m'Language'[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m[0m
+
+Found [31m[1m2 errors[22m[39m in 3141 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.7bd46c81e4cf5dcc.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.7bd46c81e4cf5dcc.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.7bd46c81e4cf5dcc.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1477dd3c354778e9)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.48 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.1477dd3c354778e9.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.1477dd3c354778e9.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.1477dd3c354778e9.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (468200d6be5ae3b8)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.468200d6be5ae3b8.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.468200d6be5ae3b8.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.468200d6be5ae3b8.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a4758aaf169d0ed3)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.a4758aaf169d0ed3.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.a4758aaf169d0ed3.hot-update.js[39m[22m (main) 40 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a4758aaf169d0ed3.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/courses/UserCourses.tsx[39m[22m
+Module build failed (from ./node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\erenk\OneDrive\Masaüstü\frontend\src\courses\UserCourses.tsx: Unexpected token, expected "}" (54:6)
+
+[0m [90m 52 |[39m         label[33m=[39m[32m"Category"[39m
+ [90m 53 |[39m         onChange[33m=[39m{(event) [33m=>[39m {setCategory(event[33m.[39mtarget[33m.[39mvalue)}
+[31m[1m>[22m[39m[90m 54 |[39m       [33m>[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 55 |[39m         [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m'Software'[39m}[33m>[39m[33mSoftware[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+ [90m 56 |[39m         [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m'Language'[39m}[33m>[39m[33mLanguage[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m
+ [90m 57 |[39m         [33m<[39m[33mMenuItem[39m value[33m=[39m{[32m'Instrument'[39m}[33m>[39m[33mInstrument[39m[33m<[39m[33m/[39m[33mMenuItem[39m[33m>[39m[0m
+    at constructor (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:351:19)
+    at TypeScriptParserMixin.raise (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:3281:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:3301:16)
+    at TypeScriptParserMixin.expect (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:3605:28)
+    at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6702:10)
+    at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6669:21)
+    at TypeScriptParserMixin.jsxParseAttribute (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6718:38)
+    at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6732:28)
+    at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:9679:18)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6727:17)
+
+webpack compiled with [1m[31m1 error[39m[22m (cb7594d2cf3cdcc5)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.a4758aaf169d0ed3.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.a4758aaf169d0ed3.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a4758aaf169d0ed3.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0b6bc26950c13ae9)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.0b6bc26950c13ae9.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.0b6bc26950c13ae9.hot-update.js[39m[22m (main) 45.3 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.0b6bc26950c13ae9.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9399baf109d9cf5)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.a9399baf109d9cf5.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.a9399baf109d9cf5.hot-update.js[39m[22m (main) 45.4 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.a9399baf109d9cf5.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0883272cd83ee04)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.b0883272cd83ee04.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b0883272cd83ee04.hot-update.js[39m[22m (main) 45.4 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b0883272cd83ee04.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3c00c077e619ad50)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.3c00c077e619ad50.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.3c00c077e619ad50.hot-update.js[39m[22m (main) 45.9 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.3c00c077e619ad50.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b23c7c80e056794d)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.b23c7c80e056794d.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b23c7c80e056794d.hot-update.js[39m[22m (main) 45.9 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b23c7c80e056794d.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b8b9ea0baf68ca6f)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.b8b9ea0baf68ca6f.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.b8b9ea0baf68ca6f.hot-update.js[39m[22m (main) 45.9 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.b8b9ea0baf68ca6f.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fd64751ae013b428)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m = 7 assets 6 auxiliary assets
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.js[39m[22m [1m[32mruntime.fd64751ae013b428.hot-update.js[39m[22m [1m[32mstyles.css[39m[22m [1m[32mstyles.js[39m[22m 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.fd64751ae013b428.hot-update.js[39m[22m (main) 40 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.fd64751ae013b428.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/courses/UserCourses.tsx[39m[22m
+Module build failed (from ./node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+SyntaxError: C:\Users\erenk\OneDrive\Masaüstü\frontend\src\courses\UserCourses.tsx: Unexpected token (49:6)
+
+[0m [90m 47 |[39m     [33m<[39m[33mLayout[39m[33m>[39m
+ [90m 48 |[39m       [33m<[39m
+[31m[1m>[22m[39m[90m 49 |[39m       [33m<[39m[33mSelect[39m
+ [90m    |[39m       [31m[1m^[22m[39m
+ [90m 50 |[39m         labelId[33m=[39m[32m"demo-simple-select-label"[39m
+ [90m 51 |[39m         id[33m=[39m[32m"demo-simple-select"[39m
+ [90m 52 |[39m         value[33m=[39m{category}[0m
+    at constructor (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:351:19)
+    at TypeScriptParserMixin.raise (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:3281:19)
+    at TypeScriptParserMixin.unexpected (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:3301:16)
+    at TypeScriptParserMixin.jsxParseIdentifier (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6634:12)
+    at TypeScriptParserMixin.jsxParseNamespacedName (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6641:23)
+    at TypeScriptParserMixin.jsxParseElementName (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6650:21)
+    at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6726:22)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6751:33)
+    at TypeScriptParserMixin.jsxParseElementAt (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6763:32)
+    at TypeScriptParserMixin.jsxParseElement (C:\Users\erenk\OneDrive\Masaüstü\frontend\node_modules\@babel\parser\lib\index.js:6814:17)
+
+webpack compiled with [1m[31m1 error[39m[22m (ec4b678758344e05)
+[36mType-checking in progress...[39m
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m49:8[22m[39m
+[90mTS2749: [39m'Select' refers to a value, but is being used as a type here. Did you mean 'typeof Select'?
+  [0m [90m 47 |[39m     [33m<[39m[33mLayout[39m[33m>[39m
+   [90m 48 |[39m       [33m<[39m
+  [31m[1m>[22m[39m[90m 49 |[39m       [33m<[39m[33mSelect[39m
+   [90m    |[39m        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 50 |[39m         labelId[33m=[39m[32m"demo-simple-select-label"[39m
+   [90m 51 |[39m         id[33m=[39m[32m"demo-simple-select"[39m
+   [90m 52 |[39m         value[33m=[39m{category}[0m
+
+[31m[1mERROR[22m[39m in [1m./src/courses/UserCourses.tsx[22m:[32m[1m54:26[22m[39m
+[90mTS7006: [39mParameter 'event' implicitly has an 'any' type.
+  [0m [90m 52 |[39m         value[33m=[39m{category}
+   [90m 53 |[39m         label[33m=[39m[32m"Category"[39m
+  [31m[1m>[22m[39m[90m 54 |[39m         onChange[33m=[39m{[36masync[39m (event) [33m=>[39m {
+   [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 55 |[39m           setCategory(event[33m.[39mtarget[33m.[39mvalue)[33m;[39m
+   [90m 56 |[39m
+   [90m 57 |[39m           fetch([0m
+
+Found [31m[1m2 errors[22m[39m in 1158 ms.
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.fd64751ae013b428.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.fd64751ae013b428.hot-update.js[39m[22m (main) 46 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.fd64751ae013b428.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec72c1e8d2811566)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 2.79 MiB (3.49 MiB) = 7 assets 7 auxiliary assets
+Entrypoint [1mstyles[39m[22m [1m[33m[big][39m[22m 457 KiB (573 KiB) = [1m[32mruntime.js[39m[22m 52.1 KiB [1m[32mruntime.ec72c1e8d2811566.hot-update.js[39m[22m 359 bytes [1m[32mstyles.css[39m[22m 236 bytes [1m[32mstyles.js[39m[22m 405 KiB 4 auxiliary assets
+chunk (runtime: runtime) [1m[32mmain.css[39m[22m, [1m[32mmain.js[39m[22m, [1m[32mmain.ec72c1e8d2811566.hot-update.js[39m[22m (main) 46.1 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.js[39m[22m, [1m[32mruntime.ec72c1e8d2811566.hot-update.js[39m[22m (runtime) 35.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.css[39m[22m, [1m[32mstyles.js[39m[22m (styles) 389 KiB (javascript) 197 bytes (css/mini-extract) [1m[33m[initial][39m[22m
+chunk (runtime: runtime) [1m[32mvendor.css[39m[22m, [1m[32mvendor.js[39m[22m (vendor) (id hint: vendor) 2.53 MiB (javascript) 16.6 KiB (css/mini-extract) [1m[33m[initial][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendor)[39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f3b767142290c6d5)
+[36mType-checking in progress...[39m
+[32mNo errors found.[39m
+<i> [1m[32m[webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...[39m[22m

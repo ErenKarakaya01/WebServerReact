@@ -13,6 +13,7 @@ interface Course {
   id: number;
   title: string;
   description: string;
+  category: string;
   sections: number[];
 }
 
@@ -93,9 +94,11 @@ const AdminCourses = () => {
                   alignItems: 'center',
                 }}
               >
-                <div>{course.title}</div>
+                <div>Title: {course.title}</div>
 
-                <div>{course.description}</div>
+                <div>Description: {course.description}</div>
+
+                <div>Category: {course.category}</div>
               </div>
 
               <div>

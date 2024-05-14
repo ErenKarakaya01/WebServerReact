@@ -11,6 +11,7 @@ import AdminCourses from './courses/AdminCourses';
 import AddCourse from './courses/AddCourse';
 import AddSection from './courses/sections/AddSection';
 import UpdateCourse from "./courses/UpdateCourse";
+import UserCourses from "./courses/UserCourses";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -38,16 +39,24 @@ const router = createBrowserRouter([
     element: <AdminCourses />,
   },
   {
+    path: '/user/courses',
+    element: <UserCourses />,
+  },
+  {
+    path: '/admin/add-section/:courseId',
+    element: <AddSection />,
+  },
+  {
+    path: '/admin/update-course/:courseId',
+    element: <UpdateCourse />,
+  },
+  {
     path: '/user',
     element: (
       <Layout>
         <div>user</div>
       </Layout>
     ),
-  },
-  {
-    path: '/admin/courses',
-    element: <AdminCourses />,
   },
   {
     path: '/admin/add-course/:adminId',

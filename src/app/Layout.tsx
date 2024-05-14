@@ -15,7 +15,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       if (decoded.role === 'ADMIN') {
         navigate('/admin/courses');
       } else {
-        navigate('/');
+        navigate('/user/courses');
       }
     } else {
       navigate('/login');
